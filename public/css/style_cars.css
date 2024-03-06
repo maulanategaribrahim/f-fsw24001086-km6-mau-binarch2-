@@ -1,0 +1,144 @@
+body{
+  font-family: Helvetica;
+  
+  
+}
+
+#hero{
+  background-color: #f8f9fa;    
+}
+
+.navbar{
+  background-color: #f8f9fa;
+}
+.navbar-nav li {
+  transition: all 0.3s ease; 
+}
+
+.navbar-nav li:hover {
+  transform: scale(1.1);
+}
+/* .header{
+  margin-top: 58px;
+} */
+
+h1{
+  font-weight: bold;
+}
+.navbar-brand{
+  font-weight: bold;
+  font-family: Helvetica;
+  border-radius: 3px;
+}
+.navbar-nav .nav-link {
+  font-weight: bold;
+}
+.primary-color {
+  background-color: #0d28a6;
+}
+.btn-custom {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  width: 120px;
+  height: 50px;
+}
+.btn-success1 {
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+.col-md-6.order-md-last {
+  max-width: 704px;
+}
+  
+  
+  .search {
+    margin-top: -50px;
+  }
+  
+  .search .search__card {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+  }
+  
+  .search .search__card .search__time .form-select {
+    background-image: url("../public/images/fi_clock.png");
+    background-size: 20px auto;
+  }
+  
+  .search .search__card .form-select:hover {
+    border: 1px solid #5CB85F;
+    border-radius: 2px;
+  }
+  
+  .search .search__card .form-select option:hover, .search .search__card .form-select option:checked {
+    background: #C9E7CA;
+    color: #5CB85F;
+  }
+  
+  .cars {
+    margin-top: 30px;
+  }
+  
+  .cars .card {
+    width: 340px;
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+  }
+  
+  .cars .card .card-img-top {
+    width: 320px;
+    height: 180px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .cars .card .cars__p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 100px;
+  }
+
+
+
+
+
+  
+  @media (max-width: 1199px) {
+    
+    .cars .card {
+      width: 280px;
+      -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+              box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    }
+    .cars .card .card-img-top {
+      width: 260px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+
+    .cars {
+      margin-top: 30px;
+    }
+    .cars .card {
+      width: 500px;
+      margin-top: 20px;
+      -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+              box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 8px;
+    }
+    .cars .card .card-img-top {
+      width: 480px;
+      height: 250px;
+    }
+    .cars .card .cars__p {
+      font-size: 14px;
+      line-height: 20px;
+      height: 50px;
+    }
+  }

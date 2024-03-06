@@ -1,0 +1,81 @@
+body{
+    font-family: Helvetica;
+    
+    
+}
+
+#hero{
+    background-color: #f8f9fa;    
+}
+
+.navbar{
+    background-color: #f8f9fa;
+}
+.navbar-nav li {
+    transition: all 0.3s ease; 
+}
+
+.navbar-nav li:hover {
+    transform: scale(1.1);
+}
+/* .header{
+    margin-top: 58px;
+} */
+
+h1{
+    font-weight: bold;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-family: Helvetica;
+    border-radius: 3px;
+}
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+.primary-color {
+    background-color: #0d28a6;
+}
+.btn-custom {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-success1 {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+.col-md-6.order-md-last {
+    max-width: 704px;
+}
+
+/* .card {
+    background-color: #C4C4C4;
+} */
+#icon {
+    width: 100px;
+    height: 80px;
+}
+/* .d-flex align-items-center {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+} */
+
+@media (max-width: 768px) {
+    
+    
+    .Services{
+       max-width: 1027px;
+       height: 428px;
+    }
+    .WhyUs h1 {
+        text-align: center;
+    }
+    .WhyUs p {
+        text-align: center;
+    }
+  
+}
+
